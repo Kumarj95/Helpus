@@ -1,0 +1,11 @@
+.Scrollable {
+    padding-top: 50px;
+    margin-left: 10px;
+    overflow:scroll;
+    width: 95%;
+    height:600px;
+}
+ th, td {
+    border: 1px solid black;
+  }
+  
