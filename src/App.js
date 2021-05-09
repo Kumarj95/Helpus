@@ -21,28 +21,28 @@ function App() {
       <div className="container">
       <Menubar />
       <Switch>
-      <Route exact path="Helpus/HospitalBeds">
+      <Route exact path="/Helpus/HospitalBeds">
           <HospitalBeds/>
         </Route>
-        <Route exact path="Helpus/Oxygen">
+        <Route exact path="/Helpus/Oxygen">
           <Oxygen/>
         </Route>
-        <Route exact path="Helpus/Plasma">
+        <Route exact path="/Helpus/Plasma">
           <Plasma/>
         </Route>
         <Route exact path="/Helpus">
           <Home/>
         </Route>
-        <Route exact path="Helpus/FoodResources">
+        <Route exact path="/Helpus/FoodResources">
           <FoodResources/>
         </Route>
-        <Route exact path="Helpus/Tweets">
+        <Route exact path="/Helpus/Tweets">
           <Tweets/>
         </Route>
-        <Route exact path="Helpus/CovidStats">
+        <Route exact path="/Helpus/CovidStats">
           <CovidStats/>
         </Route>
-        <Route exact path="Helpus/TelegramGroups">
+        <Route exact path="/Helpus/TelegramGroups">
           <TelegramGroups/>
         </Route>
         
