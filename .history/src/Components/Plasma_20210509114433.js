@@ -12,7 +12,7 @@ const Plasma = () => {
     }, [])
 
     const fetchPlasma = async () => {
-        const res = await fetch('plasma.json');
+        const res = await fetch('Plasma.json');
         const data = await res.json();
         return data
     }
