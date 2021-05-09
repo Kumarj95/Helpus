@@ -5,8 +5,8 @@ import {BrowserRouter as Router, Route,Switch} from 'react-router-dom'
 import HospitalBeds from './Components/HospitalBeds';
 import Oxygen from './Components/Oxygen'
 import Plasma from './Components/Plasma'
-import FoodResources from './Components/FoodResources'
-import Tweets from './Components/Tweets'
+// import FoodResources from './Components/FoodResources'
+// import Tweets from './Components/Tweets'
 import CovidStats from './Components/CovidStats'
 import TelegramGroups from './Components/TelegramGroups'
 import {Navbar,Nav, Container,Badge} from 'react-bootstrap'
@@ -19,12 +19,7 @@ function App() {
     <Router>
     <div className="App">
     <Navbar bg="dark" variant="dark">
-    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-    <Nav className="mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
-    </Nav>
+    <Navbar.Brand href="#home">HelpUs</Navbar.Brand>
   </Navbar>
       <Container fluid>
       <Menubar />
@@ -42,12 +37,12 @@ function App() {
         <Route exact path="/Helpus">
           <Home/>
         </Route>
-        <Route exact path="/Helpus/FoodResources">
+        {/* <Route exact path="/Helpus/FoodResources">
           <FoodResources/>
-        </Route>
-        <Route exact path="/Helpus/Tweets">
+        </Route> */}
+        {/* <Route exact path="/Helpus/Tweets">
           <Tweets/>
-        </Route>
+        </Route> */}
         <Route exact path="/Helpus/CovidStats">
           <CovidStats/>
         </Route>

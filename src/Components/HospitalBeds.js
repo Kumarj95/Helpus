@@ -22,9 +22,9 @@ const HospitalBeds = () => {
 <div className="Scrollable">
 
     <tbody>
-  <tr>
+  <tr className="tr1">
 
-    <th>Serial Number</th>
+    <th className="th1">Serial Number</th>
     <th>Name of Hospital</th>
     <th>Status</th>
     <th>Contact</th>
@@ -37,7 +37,7 @@ const HospitalBeds = () => {
   </tr>
   {info.map((bed)=>{
 
-      return <tr>
+      return <tr className="tr2">
         <td>
             {bed.SerialNumber}
         </td>

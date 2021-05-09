@@ -45,12 +45,12 @@ export default function Menubar() {
                 <Link to="/Helpus/Plasma">
                 <button className="big-button" style={buttonStyle} > Plasma</button>
                 </Link>
-                <Link to="/Helpus/FoodResources">
+                {/* <Link to="/Helpus/FoodResources">
                 <button className="big-button" style={buttonStyle} > Food Resources</button>
                 </Link>
                 <Link to="/Helpus/Tweets">
                 <button className="big-button" style={buttonStyle} > Tweets</button>
-                </Link>
+                </Link> */}
                 <Link to="/Helpus/CovidStats">
                 <button className="big-button" style={buttonStyle} > Covid Stats</button>
                 </Link>
