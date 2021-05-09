@@ -8,7 +8,8 @@ export default function Home() {
                 <img  className="logo" src={logo} alt="Logo"></img>
             </div>
             <div className="mainText">
-                Welcome to HelpuS
+               <h1>Welcome to HelpuS</h1> 
+               <p>A site to find all your covid resources</p>
         </div>
             </>
 

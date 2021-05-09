@@ -9,7 +9,7 @@ import FoodResources from './Components/FoodResources'
 import Tweets from './Components/Tweets'
 import CovidStats from './Components/CovidStats'
 import TelegramGroups from './Components/TelegramGroups'
-
+import {Navbar,Nav, Container,Dropdown,DropdownButton} from 'react-bootstrap'
 function App() {
 
 
@@ -18,7 +18,15 @@ function App() {
   return (
     <Router>
     <div className="App">
-      <div className="container">
+    <Navbar bg="dark" variant="dark">
+    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+    <Nav className="mr-auto">
+      <Nav.Link href="#home">Home</Nav.Link>
+      <Nav.Link href="#features">Features</Nav.Link>
+      <Nav.Link href="#pricing">Pricing</Nav.Link>
+    </Nav>
+  </Navbar>
+      <Container fluid>
       <Menubar />
       <Switch>
       <Route exact path="/Helpus/HospitalBeds">
@@ -47,7 +55,7 @@ function App() {
         </Route>
         
       </Switch>
-      </div>
+      </Container>
     </div>
     </Router>
    );

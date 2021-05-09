@@ -1,0 +1,30 @@
+.card {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    background-color: #C38D9E;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    /* border: 1px solid black; */
+    /* box-shadow: 10px 10px; */
+}
+
+h2 {
+    border: 1px solid black;
+    background-color: rgb(12, 215, 230);
+}
+
+.container {
+    width: 30% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card label {
+    font-size: 20px;
+    font-weight: bold;
+}

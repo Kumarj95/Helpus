@@ -24,7 +24,7 @@ export default function Menubar() {
         <button className="MenubarButton" onClick={toggleMenu} >
             
         <FaBars className="MenuBurgerBar" style={myStyle} />
-            &nbsp;  Menu
+            &nbsp; Select your need
         
         </button>
         :
