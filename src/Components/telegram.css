@@ -1,0 +1,15 @@
+.abc {
+    width: 50%;
+    display: flex;
+    margin-left: 30%;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+}
+
+.tr {
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+}
