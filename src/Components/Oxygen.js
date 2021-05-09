@@ -23,10 +23,10 @@ const Oxygen = () => {
         <>
             <table>
 
-                    <tbody className="Scrollable">
-                        <tr>
+                    <tbody className="Scrollable1">
+                        <tr className="tr4">
 
-                            <th>Serial Number</th>
+                            <th className="th">Serial Number</th>
                             <th>Name</th>
                             <th>Status</th>
                             <th>Refill</th>
@@ -41,12 +41,12 @@ const Oxygen = () => {
 
                         {info.map((o,index) => {
 
-                            return <tr key={index}>
+                            return <tr key={index} className="tr3">
                                 <td>
                                     {o.SerialNumber}
                                 </td>
                                 <td>
-                                    {o.name}
+                                    {o.Name}
                                 </td>
                                 <td>
                                     {o.Status}
@@ -61,7 +61,7 @@ const Oxygen = () => {
                                     {o.AdditionalInfo}
                                 </td>
                                 <td>
-                                    {o.TimeofVerification}
+                                    {o.TimeOfVerification}
                                 </td>
                                 <td>
                                     {o.City}
