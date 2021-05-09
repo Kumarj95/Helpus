@@ -9,7 +9,7 @@ import FoodResources from './Components/FoodResources'
 import Tweets from './Components/Tweets'
 import CovidStats from './Components/CovidStats'
 import TelegramGroups from './Components/TelegramGroups'
-import {Navbar,Nav, Container,Dropdown,DropdownButton} from 'react-bootstrap'
+import {Navbar,Nav, Container,Badge} from 'react-bootstrap'
 function App() {
 
 
@@ -28,6 +28,7 @@ function App() {
   </Navbar>
       <Container fluid>
       <Menubar />
+      <Badge variant="primary">Primary</Badge>{' '}
       <Switch>
       <Route exact path="/Helpus/HospitalBeds">
           <HospitalBeds/>
